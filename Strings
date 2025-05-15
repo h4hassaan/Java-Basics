@@ -1,0 +1,14 @@
+//JAVA FOR STRINGS
+public class practise {
+  public static void main(String[] args)
+  {
+     String mystring= "My name is Hassaan";
+     System.out.println(mystring.indexOf("Hassaan"));// to find the index
+     String mystring2=mystring.substring(8,15);//to slice and select specific part
+      System.out.println(mystring2);
+     System.out.println(mystring.toUpperCase());
+     System.out.println("my name is \"HASSAAN\""); //Escapre sequence
+  }
+}
+//KEY POINT
+// In strings spaces are also included in indexes
